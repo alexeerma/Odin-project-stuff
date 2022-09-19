@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    
+    let number = prompt("pick a number")
+
+function add7(NewNumber){
+  NewNumber = 7 + parseInt(number);
+  return (NewNumber);
+}
+
+console.log(add7(number))
+
+
+// Next function
+
+let num1 = 5;
+let num2 = 20;
+
+function mupltiplyTimesTwo(num1, num2) {
+    return num1 * num2;
+}
+
+console.log(mupltiplyTimesTwo(num1,num2));
+
+// STring thingi function 
+
+const str = 'FASTFOOD';
+
+function capitalize (str) {
+    const str2 = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    return str2;
+}
+
+console.log(capitalize(str));
+
+//LAST Letter function
+
+let myWord = prompt('Enter a word. The last letter will be returned.');
+
+    lastLetter(myWord);
+
+    function lastLetter(myWord) {
+    let letter = myWord.slice(-1);
+    console.log(letter);
+    return letter;
+    }
+
+
+
+   
+  </script>
+</body>
+</html>
